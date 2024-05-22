@@ -29,7 +29,7 @@ if [ "$LXC_TEMPLATE_VERSION" == "debian-11-standard" ] ; then
 cat << EOF > /etc/apt/sources.list
 deb http://deb.debian.org/debian bullseye main contrib
 
-deb hhttp://deb.debian.org/debian bullseye-updates main contrib
+deb http://deb.debian.org/debian bullseye-updates main contrib
 
 # security updates
 deb http://deb.debian.org/debian-security bullseye-security main contrib
